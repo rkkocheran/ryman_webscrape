@@ -1,6 +1,6 @@
 ## Web Scraping the Ryman Calendar
 
-This exercise uses BeautifulSoup to obtain a dataset of upcoming events at the Ryman. This information is available at https://ryman.com/events/. The contents of this website are converted into a pandas DataFrame. Note: The website splits the events across multiple pages.
+This project uses Python's Requests and BeautifulSoup libraries to obtain a dataset of upcoming events at the Ryman (available at https://ryman.com/events/). The contents of this website are converted into a pandas DataFrame.
 
 1. Used a web inspector to identify a tag that contains the names of all headliners (e.g. for Vince Gill, featuring Wendy Moten, only pull Vince Gill.) This was used to create a list containing the names of each inductee.
 
